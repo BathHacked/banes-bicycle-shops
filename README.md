@@ -1,7 +1,7 @@
 banes-bicycle-shops
 ===================
 
-A list of bicycle shops in Bath & North East Somerset pulled from the Google Places API.
+Script for importing bicycle shop location data in Bath & North East Somerset into Socrata, pulled from the Google Places API
 
 ## Accessing the data
 
