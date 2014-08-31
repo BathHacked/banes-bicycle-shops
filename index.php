@@ -43,8 +43,8 @@
 		echo 'Getting data for ' . $data_row['name'] . '<br />';
 	}
 
-	// Re-encode the array as JSON and put it to Socrata
-	$response = $socrata->put('/resource/' . $database_id, json_encode($formatted_rows));
+	// Re-encode the array as JSON and post it to Socrata
+	$response = $socrata->post('/resource/' . $database_id, json_encode($formatted_rows));
 
 	// Output some info to the browser
 	echo '<br />Done!<br />';
